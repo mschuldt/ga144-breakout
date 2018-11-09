@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mschuldt/a/projects/ga144-breakout/board/ga144-breakout.sch)
-    (date "Thu 08 Nov 2018 11:43:49 PM PST")
+    (date "Fri 09 Nov 2018 11:59:59 AM PST")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -682,7 +682,7 @@
     (library (logical Switch)
       (uri /usr/share/kicad/library/Switch.lib))
     (library (logical ak-ga144)
-      (uri /home/mschuldt/a/projects/ak-ga144/libraries/ak-ga144.lib))
+      (uri /home/mschuldt/a/projects/ga144-breakout/ak-ga144/libraries/ak-ga144.lib))
     (library (logical ga144)
       (uri /home/mschuldt/a/projects/ga144-breakout/ga144.lib)))
   (nets

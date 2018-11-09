@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -3605,7 +3605,7 @@
   (segment (start 105.95 90.5292) (end 106.6957 91.2749) (width 0.25) (layer F.Cu) (net 92))
   (segment (start 105.95 88.67) (end 105.95 90.5292) (width 0.25) (layer F.Cu) (net 92))
 
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5BF353B2) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5BF35DC2) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 0.508))
@@ -4169,7 +4169,7 @@
       )
     )
   )
-  (zone (net 6) (net_name vccC) (layer F.Cu) (tstamp 5BF353AF) (hatch edge 0.508)
+  (zone (net 6) (net_name vccC) (layer F.Cu) (tstamp 5BF35DBF) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.2) (thermal_bridge_width 0.508))

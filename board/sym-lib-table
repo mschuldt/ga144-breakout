@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name ak-ga144)(type Legacy)(uri /home/mschuldt/a/projects/ak-ga144/libraries/ak-ga144.lib)(options "")(descr ""))
+  (lib (name ak-ga144)(type Legacy)(uri /home/mschuldt/a/projects/ga144-breakout/ak-ga144/libraries/ak-ga144.lib)(options "")(descr ""))
   (lib (name FT234XD-R)(type Legacy)(uri /home/mschuldt/a/projects/ga144-breakout/kicad-lib/FT234XD-R.lib)(options "")(descr ""))
   (lib (name ga144)(type Legacy)(uri /home/mschuldt/a/projects/ga144-breakout/ga144.lib)(options "")(descr ""))
 )
