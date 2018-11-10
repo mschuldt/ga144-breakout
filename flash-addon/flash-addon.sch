@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+LIBS:flash-addon-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7300 4850 2    50   Input ~ 0
+705.17
+Text GLabel 7300 4950 2    50   Input ~ 0
+705.5
+Text GLabel 7300 5050 2    50   Input ~ 0
+705.3
+Text GLabel 7300 5150 2    50   Input ~ 0
+705.1
+Wire Wire Line
+	7300 4850 7150 4850
+Wire Wire Line
+	7300 4950 7150 4950
+Wire Wire Line
+	7300 5050 7150 5050
+Wire Wire Line
+	7300 5150 7150 5150
+$Comp
+L ga144:SST25WF080B U4
+U 1 1 5C81142F
+P 5350 4950
+F 0 "U4" H 5400 5315 50  0000 C CNN
+F 1 "SST25WF080B" H 5400 5224 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm" H 5350 4850 50  0001 C CNN
+F 3 "" H 5350 4850 50  0001 C CNN
+	1    5350 4950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 4950 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	5800 4950 5950 4950
+Text GLabel 5950 4850 2    50   Input ~ 0
+vccC
+Text GLabel 5950 5050 2    50   Input ~ 0
+705.1
+Wire Wire Line
+	5800 5050 5950 5050
+Text GLabel 5950 5150 2    50   Input ~ 0
+705.5
+Wire Wire Line
+	5800 5150 5950 5150
+Text GLabel 4850 4850 0    50   Input ~ 0
+705.3
+Wire Wire Line
+	4850 4850 5000 4850
+Text GLabel 4850 4950 0    50   Input ~ 0
+705.17
+Wire Wire Line
+	4850 4950 5000 4950
+$Comp
+L power:GND #PWR0103
+U 1 1 5C8DD8EF
+P 4850 5200
+F 0 "#PWR0103" H 4850 4950 50  0001 C CNN
+F 1 "GND" H 4855 5027 50  0000 C CNN
+F 2 "" H 4850 5200 50  0001 C CNN
+F 3 "" H 4850 5200 50  0001 C CNN
+	1    4850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5150 4850 5150
+Wire Wire Line
+	4850 5150 4850 5200
+Text GLabel 4800 5050 0    50   Input ~ 0
+vccC
+Wire Wire Line
+	4800 5050 5000 5050
+$Comp
+L Connector:Conn_01x03_Male J13
+U 1 1 5C91571B
+P 3250 5000
+F 0 "J13" H 3150 5500 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 3400 5400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3250 5000 50  0001 C CNN
+F 3 "~" H 3250 5000 50  0001 C CNN
+	1    3250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5C94B30F
+P 3700 5100
+F 0 "#PWR08" H 3700 4850 50  0001 C CNN
+F 1 "GND" H 3705 4927 50  0000 C CNN
+F 2 "" H 3700 5100 50  0001 C CNN
+F 3 "" H 3700 5100 50  0001 C CNN
+	1    3700 5100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3650 4900 2    50   Input ~ 0
+vccC
+Text GLabel 3650 5000 2    50   Input ~ 0
+RESET
+Wire Wire Line
+	3450 4900 3550 4900
+Wire Wire Line
+	3450 5000 3650 5000
+Wire Wire Line
+	3450 5100 3550 5100
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5C24AD34
+P 6950 4950
+F 0 "J1" H 7056 5228 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 7056 5137 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6950 4950 50  0001 C CNN
+F 3 "~" H 6950 4950 50  0001 C CNN
+	1    6950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 5950 4850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5C24CD23
+P 3700 4750
+F 0 "#FLG0101" H 3700 4825 50  0001 C CNN
+F 1 "PWR_FLAG" V 3700 4878 50  0000 L CNN
+F 2 "" H 3700 4750 50  0001 C CNN
+F 3 "~" H 3700 4750 50  0001 C CNN
+	1    3700 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4750 3550 4750
+Wire Wire Line
+	3550 4750 3550 4900
+Connection ~ 3550 4900
+Wire Wire Line
+	3550 4900 3650 4900
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C24D8BD
+P 3650 5250
+F 0 "#FLG0102" H 3650 5325 50  0001 C CNN
+F 1 "PWR_FLAG" V 3650 5378 50  0000 L CNN
+F 2 "" H 3650 5250 50  0001 C CNN
+F 3 "~" H 3650 5250 50  0001 C CNN
+	1    3650 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 5250 3550 5250
+Wire Wire Line
+	3550 5250 3550 5100
+Connection ~ 3550 5100
+Wire Wire Line
+	3550 5100 3700 5100
+$EndSCHEMATC
