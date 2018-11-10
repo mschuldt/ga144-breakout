@@ -1,2 +1,8 @@
 
-Simple eval board for the GA144 multi-computer chip
+Simple eval boards for the GA144 multi-computer chip:
+
+breakout - Simple GA144 breakout with only headers and decoupling capacitors
+evalboard1 - GA144 with USB UART, voltage regulator, crystal and flash footprints,
+             and headers for optional SRAM and flash add-on boards.
+flash-addon - flash board for evalboard1
+sram-addon - SRAM board for evalboard1
