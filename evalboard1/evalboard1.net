@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mschuldt/a/projects/ga144-breakout/evalboard1/evalboard1.sch)
-    (date "Sat 10 Nov 2018 01:17:24 AM PST")
+    (date "Tue 20 Nov 2018 12:50:41 PM PST")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -27,7 +27,7 @@
       (tstamp 5BE088A7))
     (comp (ref J1)
       (value USB_OTG)
-      (footprint Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal)
+      (footprint Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal)
       (datasheet " ~")
       (libsource (lib Connector) (part USB_OTG) (description "USB mini/micro connector"))
       (sheetpath (names /) (tstamps /))
