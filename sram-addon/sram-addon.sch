@@ -46,25 +46,25 @@ Wire Wire Line
 	5800 6400 6000 6400
 Wire Wire Line
 	6000 6500 5800 6500
-Text GLabel 1900 6250 2    50   Input ~ 0
-008.17
 Text GLabel 1900 6350 2    50   Input ~ 0
+008.17
+Text GLabel 1900 6450 2    50   Input ~ 0
 008.5
-Text GLabel 1900 6450 2    50   BiDi ~ 0
+Text GLabel 1900 6550 2    50   BiDi ~ 0
 008.3
-Text GLabel 1900 6550 2    50   Input ~ 0
+Text GLabel 1900 6650 2    50   Input ~ 0
 008.1
 Text GLabel 2050 6050 2    50   Input ~ 0
 vccC
 $Comp
 L power:GND #PWR05
 U 1 1 5C523692
-P 2000 6150
-F 0 "#PWR05" H 2000 5900 50  0001 C CNN
-F 1 "GND" V 2005 6022 50  0000 R CNN
-F 2 "" H 2000 6150 50  0001 C CNN
-F 3 "" H 2000 6150 50  0001 C CNN
-	1    2000 6150
+P 2000 6250
+F 0 "#PWR05" H 2000 6000 50  0001 C CNN
+F 1 "GND" V 2005 6122 50  0000 R CNN
+F 2 "" H 2000 6250 50  0001 C CNN
+F 3 "" H 2000 6250 50  0001 C CNN
+	1    2000 6250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -104,27 +104,16 @@ F 3 "~" H 3200 6200 50  0001 C CNN
 	1    3200 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x06_Male J8
-U 1 1 5C6C1C0B
-P 1600 6250
-F 0 "J8" H 1706 6628 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 1706 6537 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1600 6250 50  0001 C CNN
-F 3 "~" H 1600 6250 50  0001 C CNN
-	1    1600 6250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1800 6050 1850 6050
-Wire Wire Line
-	1800 6250 1900 6250
 Wire Wire Line
 	1800 6350 1900 6350
 Wire Wire Line
 	1800 6450 1900 6450
 Wire Wire Line
 	1800 6550 1900 6550
+Wire Wire Line
+	1800 6650 1900 6650
 Wire Wire Line
 	3400 5700 3600 5700
 Wire Wire Line
@@ -617,14 +606,12 @@ $EndComp
 Wire Wire Line
 	1850 6050 2050 6050
 Wire Wire Line
-	1800 6150 1950 6150
+	1800 6250 1950 6250
 Wire Wire Line
 	2100 5850 1950 5850
+Connection ~ 1950 6250
 Wire Wire Line
-	1950 5850 1950 6150
-Connection ~ 1950 6150
-Wire Wire Line
-	1950 6150 2000 6150
+	1950 6250 2000 6250
 Wire Wire Line
 	5100 3300 5350 3300
 Text GLabel 5350 3000 1    50   Input ~ 0
@@ -650,4 +637,18 @@ F 3 "~" H 7900 2700 50  0001 C CNN
 	1    7900 2700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x07_Male J2
+U 1 1 5C2E58F7
+P 1600 6350
+F 0 "J2" H 1706 6828 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 1706 6737 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 1600 6350 50  0001 C CNN
+F 3 "~" H 1600 6350 50  0001 C CNN
+	1    1600 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5850 1950 6250
+NoConn ~ 1800 6150
 $EndSCHEMATC
