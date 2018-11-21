@@ -1,0 +1,3 @@
+[submodule "greenarray-kicad"]
+	path = greenarray-kicad
+	url = https://github.com/mschuldt/greenarray-kicad.git
