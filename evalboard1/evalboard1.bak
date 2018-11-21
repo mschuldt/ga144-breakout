@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ak-ga144:GA144A12 U1
+L evalboard1-rescue:GA144A12-ak-ga144 U1
 U 1 1 5BE088A7
 P 3000 3300
 F 0 "U1" H 2850 3500 50  0000 L CNN
 F 1 "GA144A12" H 2900 3400 50  0000 L CNN
-F 2 "ak-ga144:QFN88+1_GA144A12" H 2750 3350 50  0000 L CNN
+F 2 "greenarrays-footprint:GA4-DFN12" H 2750 3350 50  0000 L CNN
 F 3 "" H 3000 3300 50  0001 C CNN
 F 4 "(c) 2014 by Aaron Kondziela" H 3000 5650 60  0001 C BNN "Copyright"
 F 5 "MIT License" H 3000 5450 60  0001 C BNN "License"

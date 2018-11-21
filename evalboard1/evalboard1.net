@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mschuldt/a/projects/ga144-breakout/evalboard1/evalboard1.sch)
-    (date "Wed 21 Nov 2018 01:29:13 AM PST")
+    (date "Wed 21 Nov 2018 03:42:46 PM PST")
     (tool "Eeschema 5.0.1-33cea8e~68~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,12 +17,12 @@
   (components
     (comp (ref U1)
       (value GA144A12)
-      (footprint ak-ga144:QFN88+1_GA144A12)
+      (footprint greenarrays:GA144-QFN88)
       (fields
         (field (name Contact) aaron@aaronkondziela.com)
         (field (name Copyright) "(c) 2014 by Aaron Kondziela")
         (field (name License) "MIT License"))
-      (libsource (lib ak-ga144) (part GA144A12) (description "GreenArrays GA144A12 Processor (Library (c)2014 by Aaron Kondziela, MIT License)"))
+      (libsource (lib evalboard1-rescue) (part GA144A12-ak-ga144) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BE088A7))
     (comp (ref J1)
@@ -566,11 +566,10 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib ak-ga144) (part GA144A12)
-      (description "GreenArrays GA144A12 Processor (Library (c)2014 by Aaron Kondziela, MIT License)")
+    (libpart (lib evalboard1-rescue) (part GA144A12-ak-ga144)
       (fields
         (field (name Reference) U)
-        (field (name Value) GA144A12)
+        (field (name Value) GA144A12-ak-ga144)
         (field (name Footprint) QFN88+1)
         (field (name Copyright) "(c) 2014 by Aaron Kondziela")
         (field (name License) "MIT License")
@@ -689,8 +688,8 @@
       (uri /usr/share/kicad/library/Regulator_Switching.lib))
     (library (logical Switch)
       (uri /usr/share/kicad/library/Switch.lib))
-    (library (logical ak-ga144)
-      (uri /home/mschuldt/a/projects/ga144-breakout/ak-ga144/libraries/ak-ga144.lib))
+    (library (logical evalboard1-rescue)
+      (uri /home/mschuldt/a/projects/ga144-breakout/evalboard1/evalboard1-rescue.lib))
     (library (logical ga144)
       (uri /home/mschuldt/a/projects/ga144-breakout/ga144.lib)))
   (nets
