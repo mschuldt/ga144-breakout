@@ -1011,25 +1011,25 @@ Text GLabel 7600 5950 2    50   Input ~ 0
 200.17
 Text GLabel 7600 5850 2    50   Input ~ 0
 100.17
-Text GLabel 5600 5650 2    50   Input ~ 0
-008.17
 Text GLabel 5600 5750 2    50   Input ~ 0
+008.17
+Text GLabel 5600 5850 2    50   Input ~ 0
 008.5
-Text GLabel 5600 5850 2    50   BiDi ~ 0
+Text GLabel 5600 5950 2    50   BiDi ~ 0
 008.3
-Text GLabel 5600 5950 2    50   Input ~ 0
+Text GLabel 5600 6050 2    50   Input ~ 0
 008.1
 Text GLabel 5600 5450 2    50   Input ~ 0
 vccC
 $Comp
 L power:GND #PWR05
 U 1 1 5C523692
-P 5600 5550
-F 0 "#PWR05" H 5600 5300 50  0001 C CNN
-F 1 "GND" V 5605 5422 50  0000 R CNN
-F 2 "" H 5600 5550 50  0001 C CNN
-F 3 "" H 5600 5550 50  0001 C CNN
-	1    5600 5550
+P 5600 5650
+F 0 "#PWR05" H 5600 5400 50  0001 C CNN
+F 1 "GND" V 5605 5522 50  0000 R CNN
+F 2 "" H 5600 5650 50  0001 C CNN
+F 3 "" H 5600 5650 50  0001 C CNN
+	1    5600 5650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1554,21 +1554,8 @@ F 3 "~" H 8350 5450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8550 4950 8750 4950
-$Comp
-L Connector:Conn_01x06_Male J8
-U 1 1 5C6C1C0B
-P 5300 5650
-F 0 "J8" H 5406 6028 50  0000 C CNN
-F 1 "Conn_01x06_Male" H 5406 5937 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5300 5650 50  0001 C CNN
-F 3 "~" H 5300 5650 50  0001 C CNN
-	1    5300 5650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5500 5450 5600 5450
-Wire Wire Line
-	5500 5550 5600 5550
 Wire Wire Line
 	5500 5650 5600 5650
 Wire Wire Line
@@ -1577,6 +1564,8 @@ Wire Wire Line
 	5500 5850 5600 5850
 Wire Wire Line
 	5500 5950 5600 5950
+Wire Wire Line
+	5500 6050 5600 6050
 Wire Wire Line
 	3600 7000 3600 6800
 Connection ~ 3600 6800
@@ -1720,4 +1709,19 @@ Wire Wire Line
 	6400 2300 6400 2200
 Wire Wire Line
 	6400 2200 6100 2200
+$Comp
+L Connector:Conn_01x07_Male J8
+U 1 1 5C2A5341
+P 5300 5750
+F 0 "J8" H 5406 6228 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 5450 6300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 5300 5750 50  0001 C CNN
+F 3 "~" H 5300 5750 50  0001 C CNN
+	1    5300 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 5550 2    50   Input ~ 0
+vcc
+Wire Wire Line
+	5500 5550 5600 5550
 $EndSCHEMATC
