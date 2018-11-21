@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ak-ga144)(type Legacy)(uri /home/mschuldt/a/projects/ga144-breakout/ak-ga144/modules/ak-ga144.mod)(options "")(descr ""))
+  (lib (name FT234XD-R)(type Legacy)(uri /home/mschuldt/a/projects/ga144-breakout/kicad-lib/FT234XD-R.mod)(options "")(descr ""))
+  (lib (name ga144)(type KiCad)(uri /home/mschuldt/a/projects/ga144-breakout/ga144.pretty)(options "")(descr ""))
+)
