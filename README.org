@@ -9,3 +9,7 @@ Simple eval boards for the GA144 multi-computer chip:
 =flash-addon= - flash board for evalboard1
 
 =sram-addon= - SRAM board for evalboard1
+
+=lcd-addon= - LCD board for evalboard1
+
+=ga4-evalboard= Simple GA4 breakout with flash
