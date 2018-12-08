@@ -269,7 +269,7 @@ F 3 "~" H 7400 4000 50  0001 C CNN
 	1    7400 4000
 	-1   0    0    1   
 $EndComp
-Text GLabel 5650 3650 0    50   Input ~ 0
+Text GLabel 6000 3650 0    50   Input ~ 0
 008.3
 Text GLabel 3250 4900 2    50   Input ~ 0
 _vcc
@@ -342,7 +342,6 @@ Wire Wire Line
 Wire Wire Line
 	3200 4400 3100 4400
 NoConn ~ 3050 6150
-NoConn ~ 3500 3900
 Wire Wire Line
-	5650 3650 6200 3650
+	6000 3650 6200 3650
 $EndSCHEMATC
