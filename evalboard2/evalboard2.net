@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/mschuldt/a/projects/ga144-breakout/evalboard2/evalboard2.sch)
-    (date "Fri 23 Nov 2018 06:06:02 PM PST")
-    (tool "Eeschema 5.0.1-33cea8e~68~ubuntu14.04.1")
+    (date "Fri 07 Dec 2018 10:33:00 PM MST")
+    (tool "Eeschema 5.0.2-bee76a0~70~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)

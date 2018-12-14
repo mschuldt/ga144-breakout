@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:evalboard2-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -606,17 +607,6 @@ Text GLabel 9750 5950 2    50   Input ~ 0
 Text GLabel 9750 6050 2    50   Input ~ 0
 715.17
 $Comp
-L Connector:Conn_01x17_Male J9
-U 1 1 5CB7C03A
-P 9550 5450
-F 0 "J9" H 9656 6428 50  0000 C CNN
-F 1 "Conn_01x17_Male" H 9656 6337 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x17_P2.54mm_Vertical" H 9550 5450 50  0001 C CNN
-F 3 "~" H 9550 5450 50  0001 C CNN
-	1    9550 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x18_Male J11
 U 1 1 5CBB90C5
 P 10400 5350
@@ -990,7 +980,7 @@ L ga144:CY62167EV18 U5
 U 1 1 5C2AAE95
 P 6900 4400
 F 0 "U5" H 7025 5378 50  0000 C CNN
-F 1 "CY62167EV18" H 7025 5287 50  0000 C CNN
+F 1 "CY62167EV18" H 6950 4150 50  0000 C CNN
 F 2 "ga144:CY62167EV18LL" H 7450 5100 50  0001 C CNN
 F 3 "" H 7450 5100 50  0001 C CNN
 	1    6900 4400
@@ -1333,4 +1323,26 @@ F 3 "~" H 9250 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 2800 7300
+$Comp
+L Connector:Conn_01x18_Male J3
+U 1 1 5C0DF0F3
+P 9550 5450
+F 0 "J3" H 9656 6428 50  0000 C CNN
+F 1 "Conn_01x18_Male" H 9656 6337 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 9550 5450 50  0001 C CNN
+F 3 "~" H 9550 5450 50  0001 C CNN
+	1    9550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C0DF289
+P 9750 6350
+F 0 "#PWR0108" H 9750 6100 50  0001 C CNN
+F 1 "GND" V 9755 6222 50  0000 R CNN
+F 2 "" H 9750 6350 50  0001 C CNN
+F 3 "" H 9750 6350 50  0001 C CNN
+	1    9750 6350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
