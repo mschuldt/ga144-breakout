@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ak-ga144:GA144A12 U1
+L breakout-rescue:GA144A12-ak-ga144 U1
 U 1 1 5BE088A7
 P 3000 3300
 F 0 "U1" H 2850 3500 50  0000 L CNN
